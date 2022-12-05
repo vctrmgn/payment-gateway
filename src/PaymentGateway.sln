@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentGateway.Web", "PaymentGateway.Web\PaymentGateway.Web.csproj", "{1E8B42E2-3DE6-4244-A213-8520D202B426}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentGateway.Core", "PaymentGateway.Core\PaymentGateway.Core.csproj", "{68B4D395-62E5-4AA9-9F67-5FD5861DC16F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentGateway.Infrastructure", "PaymentGateway.Infrastructure\PaymentGateway.Infrastructure.csproj", "{2131E163-4EC2-4FC5-BE07-12A563ACAB79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentGateway.SharedKernel", "PaymentGateway.SharedKernel\PaymentGateway.SharedKernel.csproj", "{8FC233FC-DF5F-465D-B879-2E168C337589}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentGateway.Tests", "PaymentGateway.Tests\PaymentGateway.Tests.csproj", "{FC9E9F16-D47F-4D3B-BF43-22D69ACF62A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4B82101E-B156-4BDE-A537-1E57403F6882}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FC1A20E0-5CC0-445F-B86E-FAFBBB445872}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentGateway.BankSimulator", "PaymentGateway.BankSimulator\PaymentGateway.BankSimulator.csproj", "{94982766-A6E4-4A5C-944F-6162C5A61A64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E8B42E2-3DE6-4244-A213-8520D202B426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E8B42E2-3DE6-4244-A213-8520D202B426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E8B42E2-3DE6-4244-A213-8520D202B426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E8B42E2-3DE6-4244-A213-8520D202B426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68B4D395-62E5-4AA9-9F67-5FD5861DC16F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B4D395-62E5-4AA9-9F67-5FD5861DC16F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B4D395-62E5-4AA9-9F67-5FD5861DC16F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B4D395-62E5-4AA9-9F67-5FD5861DC16F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2131E163-4EC2-4FC5-BE07-12A563ACAB79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2131E163-4EC2-4FC5-BE07-12A563ACAB79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2131E163-4EC2-4FC5-BE07-12A563ACAB79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2131E163-4EC2-4FC5-BE07-12A563ACAB79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FC233FC-DF5F-465D-B879-2E168C337589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC233FC-DF5F-465D-B879-2E168C337589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC233FC-DF5F-465D-B879-2E168C337589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC233FC-DF5F-465D-B879-2E168C337589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC9E9F16-D47F-4D3B-BF43-22D69ACF62A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC9E9F16-D47F-4D3B-BF43-22D69ACF62A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC9E9F16-D47F-4D3B-BF43-22D69ACF62A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC9E9F16-D47F-4D3B-BF43-22D69ACF62A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94982766-A6E4-4A5C-944F-6162C5A61A64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94982766-A6E4-4A5C-944F-6162C5A61A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94982766-A6E4-4A5C-944F-6162C5A61A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94982766-A6E4-4A5C-944F-6162C5A61A64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC9E9F16-D47F-4D3B-BF43-22D69ACF62A4} = {4B82101E-B156-4BDE-A537-1E57403F6882}
+		{68B4D395-62E5-4AA9-9F67-5FD5861DC16F} = {FC1A20E0-5CC0-445F-B86E-FAFBBB445872}
+		{2131E163-4EC2-4FC5-BE07-12A563ACAB79} = {FC1A20E0-5CC0-445F-B86E-FAFBBB445872}
+		{8FC233FC-DF5F-465D-B879-2E168C337589} = {FC1A20E0-5CC0-445F-B86E-FAFBBB445872}
+		{1E8B42E2-3DE6-4244-A213-8520D202B426} = {FC1A20E0-5CC0-445F-B86E-FAFBBB445872}
+		{94982766-A6E4-4A5C-944F-6162C5A61A64} = {FC1A20E0-5CC0-445F-B86E-FAFBBB445872}
+	EndGlobalSection
+EndGlobal
