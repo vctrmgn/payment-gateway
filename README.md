@@ -1,4 +1,4 @@
-# Payment Gateway
+# 💳 Payment Gateway
 
 This is a Payment Gateway API developed in C# with [ASP.NET](http://ASP.NET) Core 6.
 
@@ -13,7 +13,8 @@ Based on an `Idempotency-Key` sent with each payment request, the system is able
 
 Below, there is an activity diagram describing the processing of a payment:
 
---- Image Here
+![image](https://user-images.githubusercontent.com/119871231/205745098-54cd0fa4-5ea8-48e6-ad85-12d3d7359254.png)
+
 
 ### Single Payment Details
 
@@ -44,7 +45,7 @@ By calling the API endpoints with valid and authorized keys, Merchants will be a
 
 The solution is designed using a Clean Architecture approach, where all domain dependencies flow from the Core component.
 
---- Image Here
+![image](https://user-images.githubusercontent.com/119871231/205745148-08216617-cdc4-465c-bcb2-32e3b303a7e6.png)
 
 
 ### Core
@@ -104,11 +105,11 @@ Includes Unit and Integration tests. Defines a Testing Service Provider to make 
 
 Run the application by using one of the methods below. In both cases, the API will be available at:
 
-`http://localhost:8080`
+http://localhost:8080
 
 The API documentation and testing interface can found at:
 
-`http://localhost:8080/swagger`
+http://localhost:8080/swagger
 
 
 ### With Docker
@@ -159,7 +160,7 @@ Bearer nerdstore_secret_example_1234
 
 Using Swagger UI, click on the `Authorization` button at the right upper corner and then set the header as:
 
---- Image Here
+![image](https://user-images.githubusercontent.com/119871231/205745219-64ec2f95-209b-461c-bc57-910d1fbcac8f.png)
 
 
 ### Credit Card Testing Data
